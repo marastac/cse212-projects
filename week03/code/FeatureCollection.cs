@@ -1,5 +1,17 @@
+using System;
+using System.Collections.Generic;
+
 public class FeatureCollection
 {
-    // TODO Problem 5 - ADD YOUR CODE HERE
-    // Create additional classes as necessary
+    public List<Feature> Features { get; set; }
+}
+
+public class Feature
+{
+    public FeatureProperties Properties { get; set; }
+}
+
+public class FeatureProperties
+{
+    public DateTime Time { get; set; }
 }
