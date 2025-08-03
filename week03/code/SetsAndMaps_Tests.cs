@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 // DO NOT MODIFY THIS FILE
 
 [TestClass]
+
 public class FindPairsTests
 {
     [TestMethod]

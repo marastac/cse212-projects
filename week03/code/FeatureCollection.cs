@@ -1,17 +1,20 @@
-using System;
-using System.Collections.Generic;
-
 public class FeatureCollection
 {
+    // Una lista de "features", donde cada "feature" representa un terremoto.
     public List<Feature> Features { get; set; }
 }
 
 public class Feature
 {
-    public FeatureProperties Properties { get; set; }
+    // La propiedad "properties" contiene los detalles de cada terremoto.
+    public Properties Properties { get; set; }
 }
 
-public class FeatureProperties
+public class Properties
 {
-    public DateTime Time { get; set; }
+    // La magnitud del terremoto.
+    public double? Mag { get; set; }
+
+    // La ubicación del terremoto.
+    public string Place { get; set; }
 }
