@@ -1,0 +1,34 @@
+{
+  "features": [
+    {
+      "properties": {
+        "type": "earthquake",
+        "mag": 5.1
+      }
+    },
+    {
+      "properties": {
+        "type": "earthquake",
+        "mag": 4.2
+      }
+    },
+    {
+      "properties": {
+        "type": "explosion",
+        "mag": 2.8
+      }
+    },
+    {
+      "properties": {
+        "type": "earthquake",
+        "mag": 3.9
+      }
+    },
+    {
+      "properties": {
+        "type": "explosion",
+        "mag": 3.0
+      }
+    }
+  ]
+}
